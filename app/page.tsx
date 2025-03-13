@@ -15,7 +15,7 @@ const Home = () => {
             alt="Angelo portrait"
             width={500}
             height={500}
-            className="rounded-2xl shadow-lg opacity-70"
+            className="rounded-2xl drop-shadow-[0_0_5px_white] opacity-70"
           />
         </div>
 
@@ -36,8 +36,25 @@ const Home = () => {
             </p>
 
             {/* Social Buttons - add them later if needed */}
-            <div className="flex gap-4 justify-start mt-6">
-              {/* Social Links */}
+            <div className="flex gap-4 justify-start mt-6 mb-6">
+              <a href="https://www.linkedin.com/in/si-lian-wu-2704951b6/" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/linkedin_icon.jpg"
+                  alt="LinkedIn"
+                  width={40}
+                  height={40}
+                  className="rounded-lg hover:scale-115 transition drop-shadow-[0_0_2px_white]"
+                />
+              </a>
+              <a href="https://github.com/herman256561" target="_blank" rel="noopener noreferrer">
+                <Image
+                  src="/github_icon.jpg"
+                  alt="GitHub"
+                  width={40}
+                  height={40}
+                  className="rounded-lg hover:scale-115 transition drop-shadow-[0_0_2px_white]"
+                />
+              </a>
             </div>
           </div>
         </div>
