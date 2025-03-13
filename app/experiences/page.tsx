@@ -5,7 +5,7 @@ const page = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-start items-center bg-black text-white px-6 md:px-16 pt-4 md:pt-0"
+      className="min-h-screen flex flex-col justify-start items-center bg-black text-white px-6 md:px-16 pt-4 pb-32 md:pt-0"
     >
       <div className="flex flex-col md:flex-col items-center md:gap-8 gap-6 max-w-7xl w-full pt-10">
         <ExperienceCard

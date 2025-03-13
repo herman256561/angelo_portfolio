@@ -1,5 +1,5 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const Home = () => {
   return (
@@ -24,8 +24,10 @@ const Home = () => {
           <div className="text-left max-w-md">
             <h1 className="text-4xl sm:text-5xl font-bold">
               Hi, I am <br />
-              <span className="text-white">Angelo</span>{' '}
-              <span className="text-lg text-gray-400">(Si-Lian Wu)</span>
+              <span className="text-white">Angelo</span>{" "}
+              <span className="text-sm md:text-lg text-gray-400">
+                (Si-Lian Wu)
+              </span>
             </h1>
 
             <h2 className="text-2xl font-medium mt-4">Full-stack developer</h2>
@@ -37,7 +39,11 @@ const Home = () => {
 
             {/* Social Buttons - add them later if needed */}
             <div className="flex gap-4 justify-start mt-6 mb-6">
-              <a href="https://www.linkedin.com/in/si-lian-wu-2704951b6/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.linkedin.com/in/si-lian-wu-2704951b6/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image
                   src="/linkedin_icon.jpg"
                   alt="LinkedIn"
@@ -46,7 +52,11 @@ const Home = () => {
                   className="rounded-lg hover:scale-115 transition drop-shadow-[0_0_2px_white]"
                 />
               </a>
-              <a href="https://github.com/herman256561" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/herman256561"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Image
                   src="/github_icon.jpg"
                   alt="GitHub"
@@ -64,5 +74,3 @@ const Home = () => {
 };
 
 export default Home;
-
-

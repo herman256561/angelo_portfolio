@@ -5,7 +5,7 @@ const page = () => {
   return (
     <section
       id="skills"
-      className="min-h-screen flex flex-col justify-start items-center bg-black text-white px-6 md:px-16 pt-10"
+      className="min-h-screen flex flex-col justify-start items-center bg-black text-white px-6 md:px-16 pt-10 pb-32"
     >
       <div className="flex flex-col md:flex-row justify-center items-start gap-12 max-w-7xl w-full">
         {/* Tech Skills */}
